@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+    "vc": "https://api-evangelist.github.io/sequoia-capital/vocab/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "PortfolioCompany": "schema:Organization",
+    "FundingRound": "vc:FundingRound",
+    "VentureCapitalFirm": "vc:VentureCapitalFirm",
+    "Investor": "schema:Person",
+    "Executive": "schema:Person",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "website": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "sector": "schema:industry",
+    "founded": {
+      "@id": "schema:foundingDate",
+      "@type": "xsd:integer"
+    },
+    "status": "vc:companyStatus",
+    "stage": "vc:fundingStage",
+
+    "headquarters": "schema:address",
+    "city": "schema:addressLocality",
+    "state": "schema:addressRegion",
+    "country": "schema:addressCountry",
+
+    "totalFunding": "vc:totalFundingAmount",
+    "valuation": "vc:valuation",
+    "fundingRounds": "vc:fundingRounds",
+    "sequoiaFund": "vc:investingFund",
+    "leadInvestor": "vc:isLeadInvestor",
+
+    "amount": "vc:investmentAmount",
+    "date": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "leadInvestors": "vc:leadInvestors",
+    "postMoneyValuation": "vc:postMoneyValuation",
+
+    "executives": "schema:employee",
+    "title": "schema:jobTitle",
+    "linkedin": {
+      "@id": "schema:sameAs",
+      "@type": "@id"
+    },
+
+    "exitDetails": "vc:exitDetails",
+    "acquirer": "vc:acquirer",
+    "acquisitionPrice": "vc:acquisitionPrice",
+    "ticker": "vc:stockTicker",
+    "exchange": "vc:stockExchange"
+  }
+}

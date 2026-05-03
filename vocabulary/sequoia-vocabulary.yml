@@ -1,0 +1,219 @@
+name: Sequoia Capital Vocabulary
+description: >-
+  Domain vocabulary for venture capital investment, startup funding, and portfolio
+  management concepts as used in the Sequoia Capital ecosystem and the broader
+  VC industry.
+version: "1.0"
+created: '2026-05-02'
+modified: '2026-05-02'
+
+terms:
+  - term: Venture Capital
+    definition: >-
+      A form of private equity financing where investors provide capital to
+      early-stage, high-growth potential startups in exchange for equity ownership.
+      Venture capital firms like Sequoia Capital typically invest across multiple
+      stages from seed through growth.
+    synonyms:
+      - VC
+    related:
+      - Angel Investment
+      - Private Equity
+      - Funding Round
+
+  - term: Portfolio Company
+    definition: >-
+      A company that has received investment from a venture capital fund. Sequoia's
+      portfolio includes thousands of companies globally across technology, healthcare,
+      consumer, and enterprise sectors.
+    related:
+      - Funding Round
+      - Exit
+
+  - term: Funding Round
+    definition: >-
+      A discrete event where a company raises capital from investors. Rounds are
+      typically categorized as Seed, Series A, Series B, Series C, and later growth
+      stages. Each round typically has a lead investor who sets the terms.
+    synonyms:
+      - Investment Round
+      - Financing Round
+    related:
+      - Lead Investor
+      - Valuation
+
+  - term: Seed Round
+    definition: >-
+      The earliest institutional funding stage, typically ranging from $500K to $3M.
+      Seed funding proves the initial concept and funds early product development and
+      team building. Sequoia's Arc program specifically supports seed-stage companies.
+    related:
+      - Funding Round
+      - Series A
+
+  - term: Series A
+    definition: >-
+      The first significant institutional funding round, typically ranging from $5M
+      to $30M. Series A funding scales a product that has proven market fit and funds
+      team growth and go-to-market.
+    related:
+      - Seed Round
+      - Series B
+
+  - term: Valuation
+    definition: >-
+      The estimated monetary value of a company at a given point in time. Pre-money
+      valuation is before a new investment; post-money valuation includes the new
+      investment. Valuations above $1B are called unicorns.
+    synonyms:
+      - Company Valuation
+    related:
+      - Funding Round
+      - Unicorn
+
+  - term: Unicorn
+    definition: >-
+      A privately held startup company with a valuation exceeding $1 billion.
+      Sequoia has backed numerous unicorns including Stripe, Airbnb, DoorDash,
+      and Snowflake. Decacorns exceed $10B valuation.
+    related:
+      - Valuation
+
+  - term: Lead Investor
+    definition: >-
+      The venture capital firm that leads a funding round, typically taking the
+      largest allocation and setting the investment terms (valuation, board seats,
+      pro-rata rights). Sequoia frequently serves as lead investor in its portfolio.
+    related:
+      - Funding Round
+      - Term Sheet
+
+  - term: Term Sheet
+    definition: >-
+      A non-binding document outlining the key terms and conditions of a proposed
+      investment. The term sheet is negotiated between the company and lead investor
+      before a formal investment agreement is signed.
+    related:
+      - Lead Investor
+      - Funding Round
+
+  - term: Exit
+    definition: >-
+      An event that provides liquidity to early investors, typically an IPO or
+      acquisition. Sequoia's most notable exits include Google (2004 IPO), Apple
+      (1980 IPO), YouTube ($1.65B acquisition by Google), and WhatsApp ($19B
+      acquisition by Facebook).
+    synonyms:
+      - Liquidity Event
+    values:
+      - IPO
+      - Acquisition
+      - SPAC
+      - Merger
+    related:
+      - Portfolio Company
+      - IPO
+
+  - term: IPO
+    definition: >-
+      Initial Public Offering — the process by which a private company goes public
+      by listing its shares on a stock exchange. An IPO provides liquidity for
+      early investors and enables the company to raise capital from public markets.
+    related:
+      - Exit
+      - Acquisition
+
+  - term: Acquisition
+    definition: >-
+      The purchase of a company by another company. A strategic exit for portfolio
+      companies and their investors. Notable Sequoia portfolio acquisitions include
+      WhatsApp by Meta and YouTube by Google.
+    related:
+      - Exit
+
+  - term: Limited Partner
+    definition: >-
+      An investor in a venture capital fund who provides capital but has limited
+      liability and does not participate in fund management. LPs include university
+      endowments, pension funds, sovereign wealth funds, and family offices.
+    synonyms:
+      - LP
+    related:
+      - General Partner
+      - Fund
+
+  - term: General Partner
+    definition: >-
+      A managing partner of a venture capital firm who makes investment decisions
+      and manages the fund. GPs at Sequoia include partners like Doug Leone,
+      Roelof Botha, and Alfred Lin.
+    synonyms:
+      - GP
+    related:
+      - Limited Partner
+      - Fund
+
+  - term: Fund
+    definition: >-
+      A pool of capital raised from LPs that a venture capital firm uses to make
+      investments. Sequoia manages multiple funds including US/Europe funds, India/
+      Southeast Asia funds, and China funds. Funds typically have a 10-year lifespan.
+    related:
+      - Limited Partner
+      - General Partner
+
+  - term: Arc
+    definition: >-
+      Sequoia Arc is the firm's structured program for seed and early-stage companies.
+      Arc provides cohort-based mentorship, curriculum, and access to Sequoia's
+      network. It is distinct from traditional VC funding programs.
+    related:
+      - Seed Round
+
+  - term: Pro-Rata Rights
+    definition: >-
+      Contractual rights allowing an early investor to maintain their ownership
+      percentage by investing in subsequent funding rounds. Sequoia commonly
+      negotiates pro-rata rights to continue investing in successful portfolio
+      companies.
+    related:
+      - Funding Round
+      - Lead Investor
+
+  - term: Board Seat
+    definition: >-
+      A position on a company's board of directors, typically negotiated as part
+      of a venture investment. Sequoia partners typically take board seats in
+      portfolio companies they lead, providing governance oversight and strategic guidance.
+    related:
+      - Lead Investor
+
+categories:
+  - name: Investment Structure
+    terms:
+      - Venture Capital
+      - Fund
+      - Limited Partner
+      - General Partner
+  - name: Funding Stages
+    terms:
+      - Seed Round
+      - Series A
+      - Funding Round
+      - Valuation
+      - Unicorn
+  - name: Deal Terms
+    terms:
+      - Lead Investor
+      - Term Sheet
+      - Pro-Rata Rights
+      - Board Seat
+  - name: Portfolio
+    terms:
+      - Portfolio Company
+      - Exit
+      - IPO
+      - Acquisition
+  - name: Programs
+    terms:
+      - Arc

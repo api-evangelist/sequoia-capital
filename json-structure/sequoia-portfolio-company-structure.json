@@ -1,0 +1,88 @@
+{
+  "title": "Sequoia Portfolio Company Structure",
+  "description": "Structural documentation for a Sequoia Capital portfolio company record",
+  "version": "1.0",
+  "fields": [
+    {"name": "id", "type": "string", "description": "Unique identifier"},
+    {"name": "name", "type": "string", "required": true, "description": "Company legal name"},
+    {"name": "website", "type": "string", "format": "uri", "description": "Company website"},
+    {"name": "description", "type": "string", "description": "Business description"},
+    {
+      "name": "sector",
+      "type": "string",
+      "description": "Industry sector",
+      "examples": ["Enterprise Software", "Fintech", "Healthcare", "Consumer", "Infrastructure", "AI/ML"]
+    },
+    {
+      "name": "stage",
+      "type": "string",
+      "required": true,
+      "enum": ["Seed", "Series A", "Series B", "Series C", "Series D+", "Growth", "Pre-IPO", "Public", "Acquired"],
+      "description": "Current funding stage"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "enum": ["Active", "IPO", "Acquired", "Merged", "Shutdown"],
+      "description": "Portfolio company status"
+    },
+    {"name": "founded", "type": "integer", "description": "Year founded"},
+    {
+      "name": "headquarters",
+      "type": "object",
+      "description": "Company headquarters location",
+      "fields": [
+        {"name": "city", "type": "string"},
+        {"name": "state", "type": "string"},
+        {"name": "country", "type": "string"}
+      ]
+    },
+    {
+      "name": "fundingRounds",
+      "type": "array",
+      "description": "Chronological history of funding rounds",
+      "items": {
+        "type": "object",
+        "fields": [
+          {"name": "type", "type": "string", "required": true, "description": "Round type"},
+          {"name": "amount", "type": "number", "description": "Amount raised in USD"},
+          {"name": "date", "type": "string", "format": "date"},
+          {"name": "leadInvestors", "type": "array", "items": {"type": "string"}},
+          {"name": "postMoneyValuation", "type": "number", "nullable": true}
+        ]
+      }
+    },
+    {"name": "totalFunding", "type": "number", "description": "Total funding raised in USD"},
+    {"name": "valuation", "type": "number", "nullable": true, "description": "Most recent valuation in USD"},
+    {"name": "sequoiaFund", "type": "string", "description": "Sequoia fund that invested"},
+    {"name": "leadInvestor", "type": "boolean", "description": "Whether Sequoia led the initial round"},
+    {
+      "name": "executives",
+      "type": "array",
+      "description": "Key executives and board members",
+      "items": {
+        "type": "object",
+        "fields": [
+          {"name": "name", "type": "string", "required": true},
+          {"name": "title", "type": "string", "required": true},
+          {"name": "linkedin", "type": "string", "format": "uri"}
+        ]
+      }
+    },
+    {
+      "name": "exitDetails",
+      "type": "object",
+      "nullable": true,
+      "description": "Exit event details (IPO, acquisition)",
+      "fields": [
+        {"name": "type", "type": "string", "enum": ["IPO", "Acquisition", "Merger", "SPAC"]},
+        {"name": "date", "type": "string", "format": "date"},
+        {"name": "acquirer", "type": "string"},
+        {"name": "acquisitionPrice", "type": "number"},
+        {"name": "ticker", "type": "string"},
+        {"name": "exchange", "type": "string"}
+      ]
+    }
+  ]
+}

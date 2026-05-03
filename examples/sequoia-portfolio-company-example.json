@@ -1,0 +1,52 @@
+{
+  "title": "Sequoia Portfolio Company Example",
+  "description": "Example of a portfolio company record in Sequoia Capital format",
+  "data": {
+    "id": "company_stripe_001",
+    "name": "Stripe",
+    "website": "https://stripe.com",
+    "description": "Stripe is a financial infrastructure platform for businesses. Millions of companies use Stripe to accept payments, send payouts, and manage online operations.",
+    "sector": "Fintech",
+    "stage": "Growth",
+    "status": "Active",
+    "founded": 2010,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "US"
+    },
+    "fundingRounds": [
+      {
+        "type": "Seed",
+        "amount": 2000000,
+        "date": "2010-09-01",
+        "leadInvestors": ["Sequoia Capital"],
+        "postMoneyValuation": null
+      },
+      {
+        "type": "Series A",
+        "amount": 18000000,
+        "date": "2012-02-01",
+        "leadInvestors": ["Sequoia Capital"],
+        "postMoneyValuation": null
+      }
+    ],
+    "totalFunding": 2200000000,
+    "valuation": 50000000000,
+    "sequoiaFund": "Sequoia Capital US",
+    "leadInvestor": true,
+    "executives": [
+      {
+        "name": "Patrick Collison",
+        "title": "Chief Executive Officer",
+        "linkedin": "https://www.linkedin.com/in/patrickcollison/"
+      },
+      {
+        "name": "John Collison",
+        "title": "President",
+        "linkedin": "https://www.linkedin.com/in/johncollison/"
+      }
+    ],
+    "exitDetails": null
+  }
+}
