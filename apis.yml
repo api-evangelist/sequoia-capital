@@ -95,6 +95,8 @@ common:
     url: json-structure/sequoia-portfolio-company-structure.json
   - type: JSONLDContext
     url: json-ld/sequoia-context.jsonld
+  - type: Examples
+    url: examples/sequoia-portfolio-company-example.json
   - type: Vocabulary
     url: vocabulary/sequoia-vocabulary.yml
 
