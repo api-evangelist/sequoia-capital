@@ -1,0 +1,13 @@
+{
+  "repo": "sequoia-capital",
+  "feeds": [
+    {
+      "source": "https://www.sequoiacap.com/articles/",
+      "feed_url": "https://sequoiacap.com/feed/",
+      "saved": 10,
+      "title": "Sequoia Capital"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:36:47Z"
+}
