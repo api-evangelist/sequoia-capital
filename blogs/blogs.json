@@ -3,11 +3,11 @@
   "feeds": [
     {
       "source": "https://www.sequoiacap.com/articles/",
-      "feed_url": "https://sequoiacap.com/feed/",
-      "saved": 10,
-      "title": "Sequoia Capital"
+      "feed_url": "https://www.sequoiacap.com/feed/",
+      "title": "Sequoia Capital",
+      "saved": 1
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-05-03T23:36:47Z"
+  "post_count": 11,
+  "fetched": "2026-05-09T20:17:51Z"
 }
