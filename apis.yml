@@ -75,6 +75,8 @@ apis:
         url: https://pitchbook.com/data/pitchbook-api
 
 common:
+  - type: DomainSecurity
+    url: security/sequoia-capital-domain-security.yml
   - type: Website
     url: https://www.sequoiacap.com/
   - type: Blog
