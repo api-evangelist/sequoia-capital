@@ -1,0 +1,241 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.sequoiacap.com/our-companies/
+summary:
+  portfolio_total: 21
+  in_network: 21
+  api_providers: 19
+  missing: 0
+  stubs_created: 0
+companies:
+- name: SpaceX
+  url: https://www.spacex.com
+  description: Designs, manufactures and launches rockets and spacecraft.
+  sector: aerospace
+  stage: growth
+  status: active
+  source: https://www.sequoiacap.com/our-companies/
+  slug: spacex-api
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Airbnb
+  url: https://www.airbnb.com
+  description: Connects people worldwide with unique homes and experiences.
+  sector: travel
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: airbnb
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: NVIDIA
+  url: https://www.nvidia.com
+  description: Pioneer in the art and science of visual and accelerated computing.
+  sector: semiconductors
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: nvidia
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Reddit
+  url: https://www.reddit.com
+  description: The internet's leading source of interest-based content and community.
+  sector: social-media
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: reddit
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Klarna
+  url: https://www.klarna.com
+  description: Payment solution simplifying the online purchasing process.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: klarna
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Apple
+  url: https://www.apple.com
+  description: Transforms human interaction with technology across iPhone, iPad, Mac, and Watch.
+  sector: consumer-electronics
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: apple
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: DoorDash
+  url: https://www.doordash.com
+  description: On-demand local delivery service connecting consumers and merchants.
+  sector: logistics
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: doordash
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: YouTube
+  url: https://www.youtube.com
+  description: The world's leading video-sharing service.
+  sector: media
+  stage: growth
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/
+  slug: youtube
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: Instacart
+  url: https://www.instacart.com
+  description: Facilitates instant grocery delivery from local stores.
+  sector: logistics
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: instacart
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Linear
+  url: https://linear.app
+  description: Builds issue tracking and project planning tools for software teams.
+  sector: developer-tools
+  stage: series-b
+  status: active
+  source: https://www.sequoiacap.com/our-companies/
+  slug: linear
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: PayPal
+  url: https://www.paypal.com
+  description: Digital payment platform behind the digital wallet.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: paypal
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Block
+  url: https://block.xyz
+  description: Financial services parent of Square, Cash App, Spiral, TIDAL, and TBD.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: block
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Snowflake
+  url: https://www.snowflake.com
+  description: Data warehouse and data cloud platform built for the cloud.
+  sector: data-analytics
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: snowflake
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Stripe
+  url: https://stripe.com
+  description: Building the economic infrastructure for the internet.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://www.sequoiacap.com/our-companies/
+  slug: stripe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Google
+  url: https://www.google.com
+  description: Organizes the world's information and makes it universally accessible.
+  sector: technology
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: google
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: Nubank
+  url: https://nubank.com.br
+  description: Mobile banking and financial services for Latin America.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: nubank
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Vanta
+  url: https://www.vanta.com
+  description: Automates and simplifies security and compliance.
+  sector: cybersecurity
+  stage: series-c
+  status: active
+  source: https://www.sequoiacap.com/our-companies/
+  slug: vanta
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Retool
+  url: https://retool.com
+  description: The fastest way to build internal applications.
+  sector: developer-tools
+  stage: series-c
+  status: active
+  source: https://www.sequoiacap.com/our-companies/
+  slug: retool
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: WhatsApp
+  url: https://www.whatsapp.com
+  description: End-to-end encrypted mobile messaging application.
+  sector: communications
+  stage: growth
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/
+  slug: whatsapp
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Cisco
+  url: https://www.cisco.com
+  description: Networking, security and collaboration products for the enterprise.
+  sector: networking
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: cisco
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: HubSpot
+  url: https://www.hubspot.com
+  description: All-in-one marketing, sales, and CRM software platform.
+  sector: marketing-saas
+  stage: growth
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/
+  slug: hubspot
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
