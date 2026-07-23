@@ -1,4 +1,32 @@
-generated: '2026-07-17'
+generated: '2026-07-23'
 method: derived
 source_vc: sequoia-capital
-leads: []
+leads:
+- name: Webvan
+  url: https://www.webvan.com
+  suggested_slug: webvan
+  sector: consumer
+  source_vc: sequoia-capital
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  stub_created: false
+- name: Jawbone
+  url: https://www.jawbone.com
+  suggested_slug: jawbone
+  sector: consumer
+  source_vc: sequoia-capital
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  stub_created: false
+- name: Meebo
+  url: https://www.meebo.com
+  suggested_slug: meebo
+  sector: consumer
+  source_vc: sequoia-capital
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  stub_created: false
+- name: Plaxo
+  url: https://www.plaxo.com
+  suggested_slug: plaxo
+  sector: consumer
+  source_vc: sequoia-capital
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  stub_created: false

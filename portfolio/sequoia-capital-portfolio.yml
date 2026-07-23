@@ -1,241 +1,1192 @@
-generated: '2026-07-17'
+generated: '2026-07-23'
 method: searched
-source: https://www.sequoiacap.com/our-companies/
+source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+note: 'Deepened harvest: Sequoia''s public spotlight page publishes only a curated slice; this artifact
+  adds the firm''s broadly-documented historical and active investments (Wikipedia, Crunchbase, public
+  reporting). Match fields + summary are computed by match-portfolio.py.'
 summary:
-  portfolio_total: 21
-  in_network: 21
-  api_providers: 19
-  missing: 0
-  stubs_created: 0
+  portfolio_total: 118
+  in_network: 114
+  api_providers: 72
+  missing: 4
+  stubs_created: 3
 companies:
 - name: SpaceX
   url: https://www.spacex.com
   description: Designs, manufactures and launches rockets and spacecraft.
   sector: aerospace
-  stage: growth
   status: active
-  source: https://www.sequoiacap.com/our-companies/
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
   slug: spacex-api
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: Airbnb
-  url: https://www.airbnb.com
-  description: Connects people worldwide with unique homes and experiences.
-  sector: travel
-  stage: growth
-  status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: airbnb
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: NVIDIA
-  url: https://www.nvidia.com
-  description: Pioneer in the art and science of visual and accelerated computing.
-  sector: semiconductors
-  stage: growth
-  status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: nvidia
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
-- name: Reddit
-  url: https://www.reddit.com
-  description: The internet's leading source of interest-based content and community.
-  sector: social-media
-  stage: growth
-  status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: reddit
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: Klarna
-  url: https://www.klarna.com
-  description: Payment solution simplifying the online purchasing process.
-  sector: fintech
-  stage: growth
-  status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: klarna
   in_network: true
   is_api_provider: true
   matched_by: domain
 - name: Apple
   url: https://www.apple.com
-  description: Transforms human interaction with technology across iPhone, iPad, Mac, and Watch.
-  sector: consumer-electronics
-  stage: growth
+  description: Consumer electronics and computing giant.
+  sector: consumer
   status: ipo
-  source: https://www.sequoiacap.com/our-companies/
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
   slug: apple
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: DoorDash
-  url: https://www.doordash.com
-  description: On-demand local delivery service connecting consumers and merchants.
-  sector: logistics
-  stage: growth
+- name: Atari
+  url: https://www.atari.com
+  description: Early video game and console pioneer.
+  sector: consumer
+  status: dead
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: atari
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Cisco
+  url: https://www.cisco.com
+  description: Networking hardware and enterprise infrastructure.
+  sector: enterprise-saas
   status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: doordash
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: cisco
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Oracle
+  url: https://www.oracle.com
+  description: Database and enterprise software.
+  sector: enterprise-saas
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: oracle
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Electronic Arts
+  url: https://www.ea.com
+  description: Video game publisher.
+  sector: consumer
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: electronic-arts
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Yahoo
+  url: https://www.yahoo.com
+  description: Early web portal and search.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: yahoo
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Google
+  url: https://www.google.com
+  description: Search and internet services.
+  sector: consumer
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: google
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: PayPal
+  url: https://www.paypal.com
+  description: Online payments.
+  sector: fintech
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: paypal
   in_network: true
   is_api_provider: true
   matched_by: domain
 - name: YouTube
   url: https://www.youtube.com
-  description: The world's leading video-sharing service.
-  sector: media
-  stage: growth
+  description: Online video sharing platform.
+  sector: consumer
   status: acquired
-  source: https://www.sequoiacap.com/our-companies/
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
   slug: youtube
   in_network: true
   is_api_provider: true
   matched_by: name-slug
-- name: Instacart
-  url: https://www.instacart.com
-  description: Facilitates instant grocery delivery from local stores.
-  sector: logistics
-  stage: growth
-  status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: instacart
+- name: LinkedIn
+  url: https://www.linkedin.com
+  description: Professional social network.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: linkedin
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: WhatsApp
+  url: https://www.whatsapp.com
+  description: Mobile messaging app.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: whatsapp
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: Linear
-  url: https://linear.app
-  description: Builds issue tracking and project planning tools for software teams.
-  sector: developer-tools
-  stage: series-b
+- name: Nvidia
+  url: https://www.nvidia.com
+  description: GPUs and AI computing chips.
+  sector: data-infrastructure
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: nvidia
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: 3Com
+  url: https://www.hpe.com
+  description: Computer networking products.
+  sector: enterprise-saas
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: hpe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: LSI Logic
+  url: https://www.broadcom.com
+  description: Semiconductors and storage silicon.
+  sector: data-infrastructure
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: broadcom
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: NetApp
+  url: https://www.netapp.com
+  description: Data storage and management.
+  sector: data-infrastructure
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: netapp
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Sanmina
+  url: https://www.sanmina.com
+  description: Electronics manufacturing services.
+  sector: enterprise-saas
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: sanmina
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Flex
+  url: https://www.flex.com
+  description: Contract electronics manufacturing (formerly Flextronics).
+  sector: enterprise-saas
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: flex
+  in_network: true
+  is_api_provider: false
+  matched_by: name-slug
+- name: Rackspace
+  url: https://www.rackspace.com
+  description: Managed cloud hosting.
+  sector: data-infrastructure
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: rackspace-technology
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Redback Networks
+  url: https://www.ericsson.com
+  description: Broadband networking equipment.
+  sector: enterprise-saas
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: ericsson
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Webvan
+  url: https://www.webvan.com
+  description: Online grocery delivery pioneer (dot-com era).
+  sector: consumer
+  status: dead
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: webvan
+- name: Jawbone
+  url: https://www.jawbone.com
+  description: Wearables and audio hardware.
+  sector: consumer
+  status: dead
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: jawbone
+- name: Isilon Systems
+  url: https://www.dell.com
+  description: Scale-out network storage.
+  sector: data-infrastructure
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: avamar
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Aruba Networks
+  url: https://www.arubanetworks.com
+  description: Enterprise wireless networking.
+  sector: enterprise-saas
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: aruba-hpe
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Meraki
+  url: https://meraki.cisco.com
+  description: Cloud-managed networking.
+  sector: enterprise-saas
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: cisco
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Barracuda Networks
+  url: https://www.barracuda.com
+  description: Network security and data protection.
+  sector: security
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  in_network: true
+  is_api_provider: false
+  stub_created: true
+  slug: barracuda-networks
+  matched_by: name-slug
+- name: FireEye
+  url: https://www.trellix.com
+  description: Cybersecurity and threat intelligence.
+  sector: security
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: trellix
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Nimble Storage
+  url: https://www.hpe.com
+  description: Flash storage arrays.
+  sector: data-infrastructure
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: hpe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Pure Storage
+  url: https://www.purestorage.com
+  description: All-flash enterprise storage.
+  sector: data-infrastructure
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: pure-storage
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Cohesity
+  url: https://www.cohesity.com
+  description: Data management and backup.
+  sector: data-infrastructure
   status: active
-  source: https://www.sequoiacap.com/our-companies/
-  slug: linear
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: cohesity
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Palo Alto Networks
+  url: https://www.paloaltonetworks.com
+  description: Enterprise cybersecurity platform.
+  sector: security
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: demisto
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: PayPal
-  url: https://www.paypal.com
-  description: Digital payment platform behind the digital wallet.
-  sector: fintech
-  stage: growth
+- name: Okta
+  url: https://www.okta.com
+  description: Identity and access management.
+  sector: security
   status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: paypal
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: okta
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: Block
-  url: https://block.xyz
-  description: Financial services parent of Square, Cash App, Spiral, TIDAL, and TBD.
-  sector: fintech
-  stage: growth
+- name: ServiceNow
+  url: https://www.servicenow.com
+  description: Enterprise workflow and IT service management.
+  sector: enterprise-saas
   status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: block
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: servicenow
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: MongoDB
+  url: https://www.mongodb.com
+  description: NoSQL document database.
+  sector: data-infrastructure
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: mongodb
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Confluent
+  url: https://www.confluent.io
+  description: Data streaming platform on Apache Kafka.
+  sector: data-infrastructure
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: confluent
   in_network: true
   is_api_provider: true
   matched_by: domain
 - name: Snowflake
   url: https://www.snowflake.com
-  description: Data warehouse and data cloud platform built for the cloud.
-  sector: data-analytics
-  stage: growth
+  description: Cloud data warehouse.
+  sector: data-infrastructure
   status: ipo
-  source: https://www.sequoiacap.com/our-companies/
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
   slug: snowflake
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: Stripe
-  url: https://stripe.com
-  description: Building the economic infrastructure for the internet.
-  sector: fintech
-  stage: growth
-  status: active
-  source: https://www.sequoiacap.com/our-companies/
-  slug: stripe
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: Google
-  url: https://www.google.com
-  description: Organizes the world's information and makes it universally accessible.
-  sector: technology
-  stage: growth
+- name: UiPath
+  url: https://www.uipath.com
+  description: Robotic process automation.
+  sector: enterprise-saas
   status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: google
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
-- name: Nubank
-  url: https://nubank.com.br
-  description: Mobile banking and financial services for Latin America.
-  sector: fintech
-  stage: growth
-  status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: nubank
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
-- name: Vanta
-  url: https://www.vanta.com
-  description: Automates and simplifies security and compliance.
-  sector: cybersecurity
-  stage: series-c
-  status: active
-  source: https://www.sequoiacap.com/our-companies/
-  slug: vanta
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: Retool
-  url: https://retool.com
-  description: The fastest way to build internal applications.
-  sector: developer-tools
-  stage: series-c
-  status: active
-  source: https://www.sequoiacap.com/our-companies/
-  slug: retool
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: WhatsApp
-  url: https://www.whatsapp.com
-  description: End-to-end encrypted mobile messaging application.
-  sector: communications
-  stage: growth
-  status: acquired
-  source: https://www.sequoiacap.com/our-companies/
-  slug: whatsapp
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: Cisco
-  url: https://www.cisco.com
-  description: Networking, security and collaboration products for the enterprise.
-  sector: networking
-  stage: growth
-  status: ipo
-  source: https://www.sequoiacap.com/our-companies/
-  slug: cisco
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: uipath
   in_network: true
   is_api_provider: true
   matched_by: domain
 - name: HubSpot
   url: https://www.hubspot.com
-  description: All-in-one marketing, sales, and CRM software platform.
-  sector: marketing-saas
-  stage: growth
+  description: Inbound marketing and CRM.
+  sector: enterprise-saas
   status: ipo
-  source: https://www.sequoiacap.com/our-companies/
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
   slug: hubspot
   in_network: true
   is_api_provider: true
+  matched_by: domain
+- name: Qualtrics
+  url: https://www.qualtrics.com
+  description: Experience management software.
+  sector: enterprise-saas
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: qualtrics
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Medallia
+  url: https://www.medallia.com
+  description: Customer experience management.
+  sector: enterprise-saas
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: stellaconnect
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Zoom
+  url: https://www.zoom.us
+  description: Video conferencing.
+  sector: enterprise-saas
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: zoom
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Dropbox
+  url: https://www.dropbox.com
+  description: Cloud file storage and collaboration.
+  sector: enterprise-saas
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: dropbox
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: GitHub
+  url: https://www.github.com
+  description: Code hosting and developer collaboration.
+  sector: developer-tools
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: github
+  in_network: true
+  is_api_provider: true
+  matched_by: name-slug
+- name: Docker
+  url: https://www.docker.com
+  description: Container platform for developers.
+  sector: developer-tools
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: docker
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Zapier
+  url: https://www.zapier.com
+  description: No-code workflow automation.
+  sector: developer-tools
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: zapier
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Temporal
+  url: https://www.temporal.io
+  description: Durable execution / workflow orchestration.
+  sector: developer-tools
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: temporal
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Sourcegraph
+  url: https://www.sourcegraph.com
+  description: Code search and intelligence.
+  sector: developer-tools
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: sourcegraph
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: dbt Labs
+  url: https://www.getdbt.com
+  description: Data transformation tooling.
+  sector: data-infrastructure
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: data-modeling
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Retool
+  url: https://www.retool.com
+  description: Low-code internal app builder.
+  sector: developer-tools
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: retool
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Warp
+  url: https://www.warp.dev
+  description: Modern terminal for developers.
+  sector: developer-tools
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: warp
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Linear
+  url: https://www.linear.app
+  description: Software project and issue tracking.
+  sector: developer-tools
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: linear
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Notion
+  url: https://www.notion.com
+  description: Connected workspace and docs.
+  sector: enterprise-saas
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: notion
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Figma
+  url: https://www.figma.com
+  description: Collaborative interface design.
+  sector: developer-tools
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: figma
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Vanta
+  url: https://www.vanta.com
+  description: Automated security compliance.
+  sector: security
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: vanta
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Cyera
+  url: https://www.cyera.io
+  description: Data security posture management.
+  sector: security
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: cyera
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Wiz
+  url: https://www.wiz.io
+  description: Cloud security platform.
+  sector: security
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: wiz
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Verkada
+  url: https://www.verkada.com
+  description: Cloud-based physical security.
+  sector: security
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: verkada
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Ironclad
+  url: https://www.ironcladapp.com
+  description: Contract lifecycle management.
+  sector: enterprise-saas
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: ironclad-clickwrap
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Gong
+  url: https://www.gong.io
+  description: Revenue intelligence platform.
+  sector: enterprise-saas
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: gong
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Front
+  url: https://www.front.com
+  description: Shared inbox and customer communication.
+  sector: enterprise-saas
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: front
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Loom
+  url: https://www.loom.com
+  description: Async video messaging.
+  sector: enterprise-saas
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: loom
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Clay
+  url: https://www.clay.com
+  description: Go-to-market data enrichment and automation.
+  sector: enterprise-saas
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: clay
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Attentive
+  url: https://www.attentive.com
+  description: SMS and email marketing platform.
+  sector: enterprise-saas
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: attentive
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Middesk
+  url: https://www.middesk.com
+  description: Business identity verification.
+  sector: fintech
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: middesk
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Vise
+  url: https://www.vise.com
+  description: AI-powered portfolio management for advisors.
+  sector: fintech
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: vise
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Rippling
+  url: https://www.rippling.com
+  description: HR, IT, and finance workforce platform.
+  sector: enterprise-saas
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: rippling
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Glean
+  url: https://www.glean.com
+  description: Enterprise AI search and assistant.
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: glean
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Harvey
+  url: https://www.harvey.ai
+  description: AI for legal professionals.
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: harvey-ai
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Sierra
+  url: https://www.sierra.ai
+  description: Conversational AI agents for business.
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: sierra
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Cursor
+  url: https://www.cursor.com
+  description: AI code editor (Anysphere).
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: cursor
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: OpenAI
+  url: https://www.openai.com
+  description: Frontier AI models and ChatGPT.
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: openai
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Hugging Face
+  url: https://www.huggingface.co
+  description: Open-source ML models and hub.
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: 1x-robotics
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: LangChain
+  url: https://www.langchain.com
+  description: Framework for LLM applications.
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: langchain
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: xAI
+  url: https://www.x.ai
+  description: AI research company behind Grok.
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: xai
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Tecton
+  url: https://www.tecton.ai
+  description: Feature platform for machine learning.
+  sector: ai
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: tecton
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Rockset
+  url: https://www.rockset.com
+  description: Real-time analytics database.
+  sector: data-infrastructure
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: rockset
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Fireblocks
+  url: https://www.fireblocks.com
+  description: Digital asset custody and infrastructure.
+  sector: crypto
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: fireblocks
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: LayerZero
+  url: https://www.layerzero.network
+  description: Omnichain interoperability protocol.
+  sector: crypto
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: layerzero
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Bridge
+  url: https://www.bridge.xyz
+  description: Stablecoin payments infrastructure.
+  sector: crypto
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: bridge
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: FTX
+  url: https://www.ftx.com
+  description: Cryptocurrency exchange (collapsed 2022).
+  sector: crypto
+  status: dead
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: ftx
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Stripe
+  url: https://www.stripe.com
+  description: Internet payments infrastructure.
+  sector: fintech
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: stripe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Klarna
+  url: https://www.klarna.com
+  description: Buy-now-pay-later and payments.
+  sector: fintech
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: klarna
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Nubank
+  url: https://www.nubank.com.br
+  description: Digital bank in Latin America.
+  sector: fintech
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: nubank
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Block
+  url: https://www.block.xyz
+  description: Payments and financial services (formerly Square).
+  sector: fintech
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: block
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Robinhood
+  url: https://www.robinhood.com
+  description: Commission-free investing app.
+  sector: fintech
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: robinhood
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Airwallex
+  url: https://www.airwallex.com
+  description: Cross-border payments and treasury.
+  sector: fintech
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: airwallex
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Toss
+  url: https://www.toss.im
+  description: Korean financial super-app (Viva Republica).
+  sector: fintech
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: toss
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Xoom
+  url: https://www.xoom.com
+  description: International money transfer.
+  sector: fintech
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: xoom
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Clari
+  url: https://www.clari.com
+  description: Revenue operations and forecasting.
+  sector: enterprise-saas
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: clari
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Sumo Logic
+  url: https://www.sumologic.com
+  description: Cloud log analytics and observability.
+  sector: data-infrastructure
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: sumologic
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Netskope
+  url: https://www.netskope.com
+  description: Cloud security and SASE.
+  sector: security
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: netskope
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Airbnb
+  url: https://www.airbnb.com
+  description: Home-sharing marketplace.
+  sector: consumer
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: airbnb
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: DoorDash
+  url: https://www.doordash.com
+  description: Food delivery marketplace.
+  sector: consumer
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: doordash
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Instacart
+  url: https://www.instacart.com
+  description: Grocery delivery marketplace.
+  sector: consumer
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: instacart
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Reddit
+  url: https://www.reddit.com
+  description: Social news and community platform.
+  sector: consumer
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: reddit
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Eventbrite
+  url: https://www.eventbrite.com
+  description: Event ticketing and management.
+  sector: consumer
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: eventbrite
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Whatnot
+  url: https://www.whatnot.com
+  description: Live-shopping marketplace.
+  sector: consumer
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: whatnot
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Faire
+  url: https://www.faire.com
+  description: Wholesale marketplace for retailers.
+  sector: consumer
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: faire
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Rec Room
+  url: https://www.recroom.com
+  description: Social gaming and virtual worlds.
+  sector: consumer
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: rec-room
+  in_network: true
+  is_api_provider: false
+  matched_by: name-slug
+- name: Thumbtack
+  url: https://www.thumbtack.com
+  description: Local services marketplace.
+  sector: consumer
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: thumbtack
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Houzz
+  url: https://www.houzz.com
+  description: Home design and remodeling platform.
+  sector: consumer
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: houzz
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Bird
+  url: https://www.bird.co
+  description: Electric scooter sharing.
+  sector: consumer
+  status: dead
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: bird-rides
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Canva
+  url: https://www.canva.com
+  description: Online graphic design platform.
+  sector: consumer
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: canva
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Zappos
+  url: https://www.zappos.com
+  description: Online shoe and apparel retailer.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  in_network: true
+  is_api_provider: false
+  stub_created: true
+  slug: zappos
+  matched_by: name-slug
+- name: Kayak
+  url: https://www.kayak.com
+  description: Travel search and metasearch.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: kayak
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Tumblr
+  url: https://www.tumblr.com
+  description: Microblogging and social platform.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: tumblr
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Evernote
+  url: https://www.evernote.com
+  description: Note-taking and productivity app.
+  sector: consumer
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: evernote
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Weebly
+  url: https://www.weebly.com
+  description: Website builder.
+  sector: developer-tools
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: weebly
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Meebo
+  url: https://www.meebo.com
+  description: Web-based instant messaging aggregator.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: meebo
+- name: AdMob
+  url: https://admob.google.com
+  description: Mobile advertising network.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: admob
+  in_network: true
+  is_api_provider: false
+  matched_by: name-slug
+- name: Unity
+  url: https://www.unity.com
+  description: Real-time 3D and game engine.
+  sector: developer-tools
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: unity
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: eHarmony
+  url: https://www.eharmony.com
+  description: Online dating service.
+  sector: consumer
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  in_network: true
+  is_api_provider: false
+  stub_created: true
+  slug: eharmony
+  matched_by: name-slug
+- name: Plaxo
+  url: https://www.plaxo.com
+  description: Online address book and contacts.
+  sector: consumer
+  status: acquired
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  in_network: false
+  is_api_provider: false
+  suggested_slug: plaxo
+- name: Guardant Health
+  url: https://www.guardanthealth.com
+  description: Liquid-biopsy cancer diagnostics.
+  sector: healthcare
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: guardant-health
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Natera
+  url: https://www.natera.com
+  description: Genetic testing and diagnostics.
+  sector: healthcare
+  status: ipo
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: natera
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Color Health
+  url: https://www.color.com
+  description: Population genomics and health services.
+  sector: healthcare
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: color
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Carbon
+  url: https://www.carbon3d.com
+  description: Digital light synthesis 3D printing.
+  sector: healthcare
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: carbon
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Zipline
+  url: https://www.flyzipline.com
+  description: Autonomous drone delivery.
+  sector: healthcare
+  status: active
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  slug: zipline-international
+  in_network: true
+  is_api_provider: false
   matched_by: domain
