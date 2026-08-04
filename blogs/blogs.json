@@ -5,7 +5,7 @@
       "source": "https://www.sequoiacap.com/?feed=rss2&post_type=post",
       "feed_url": "https://www.sequoiacap.com/?feed=rss2&post_type=post",
       "title": "",
-      "saved": 2,
+      "saved": 1,
       "method": "feed"
     },
     {
@@ -23,6 +23,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 19,
-  "fetched": "2026-07-20T13:25:28Z"
+  "post_count": 22,
+  "fetched": "2026-08-01T15:38:58Z"
 }
