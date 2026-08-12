@@ -906,7 +906,7 @@ companies:
   sector: data-infrastructure
   status: acquired
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: sumologic
+  slug: sumo-logic
   in_network: true
   is_api_provider: true
   matched_by: domain
