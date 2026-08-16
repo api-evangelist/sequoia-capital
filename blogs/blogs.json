@@ -6,23 +6,26 @@
       "feed_url": "https://www.sequoiacap.com/?feed=rss2&post_type=post",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "error": "parse_failed"
     },
     {
       "source": "https://www.sequoiacap.com/feed/",
       "feed_url": "https://www.sequoiacap.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "error": "fetch_failed: HTTPError"
     },
     {
       "source": "https://www.sequoiacap.com/",
       "feed_url": "https://www.sequoiacap.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "discovered",
+      "error": "fetch_failed: HTTPError"
     }
   ],
   "post_count": 22,
-  "fetched": "2026-08-06T13:56:59Z"
+  "fetched": "2026-08-15T12:11:08Z"
 }
