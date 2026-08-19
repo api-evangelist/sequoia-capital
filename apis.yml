@@ -44,7 +44,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/apis.yml
 created: '2026-05-02'
 modified: '2026-07-17'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: Website
