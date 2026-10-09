@@ -9,6 +9,9 @@ artifacts:
   finops/sequoia-capital-finops.yml:
     method: generated
     evidence: declared in the artifact
+  front-door-ai/2026-09-17.yml:
+    method: unknown
+    evidence: no authorship recorded
   json-ld/sequoia-context.jsonld:
     method: unknown
     evidence: no authorship recorded
@@ -21,6 +24,9 @@ artifacts:
   leads/sequoia-capital-new-company-leads.yml:
     method: derived
     evidence: declared in the artifact
+  mcp/sequoia-capital-mcp.yml:
+    method: unknown
+    evidence: no authorship recorded
   plans/sequoia-capital-plans-pricing.yml:
     method: generated
     evidence: declared in the artifact
