@@ -5,10 +5,10 @@ note: 'Deepened harvest: Sequoia''s public spotlight page publishes only a curat
   adds the firm''s broadly-documented historical and active investments (Wikipedia, Crunchbase, public
   reporting). Match fields + summary are computed by match-portfolio.py.'
 summary:
-  portfolio_total: 118
-  in_network: 114
+  portfolio_total: 115
+  in_network: 110
   api_providers: 72
-  missing: 4
+  missing: 5
   stubs_created: 3
 companies:
 - name: SpaceX
@@ -187,10 +187,10 @@ companies:
   sector: enterprise-saas
   status: ipo
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: flex
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: flex
+  suggested_slug: flex-com
 - name: Rackspace
   url: https://www.rackspace.com
   description: Managed cloud hosting.
@@ -249,16 +249,6 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: domain
-- name: Meraki
-  url: https://meraki.cisco.com
-  description: Cloud-managed networking.
-  sector: enterprise-saas
-  status: acquired
-  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: cisco
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
 - name: Barracuda Networks
   url: https://www.barracuda.com
   description: Network security and data protection.
@@ -269,7 +259,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: barracuda-networks
-  matched_by: name-slug
+  matched_by: domain
 - name: FireEye
   url: https://www.trellix.com
   description: Cybersecurity and threat intelligence.
@@ -277,16 +267,6 @@ companies:
   status: acquired
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
   slug: trellix
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: Nimble Storage
-  url: https://www.hpe.com
-  description: Flash storage arrays.
-  sector: data-infrastructure
-  status: acquired
-  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: hpe
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -308,7 +288,7 @@ companies:
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
   slug: cohesity
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Palo Alto Networks
   url: https://www.paloaltonetworks.com
@@ -316,7 +296,7 @@ companies:
   sector: security
   status: ipo
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: demisto
+  slug: cyberark
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -466,7 +446,7 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: temporal
+  slug: scalable-software-and-systems
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -516,7 +496,7 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: linear
+  slug: acceptance-criteria
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -626,9 +606,9 @@ companies:
   sector: enterprise-saas
   status: active
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: clay
+  slug: clay-com
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Attentive
   url: https://www.attentive.com
@@ -726,7 +706,7 @@ companies:
   sector: ai
   status: active
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: 1x-robotics
+  slug: 1x-technologies
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -906,9 +886,9 @@ companies:
   sector: data-infrastructure
   status: acquired
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: sumo-logic
+  slug: sensu
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Netskope
   url: https://www.netskope.com
@@ -918,7 +898,7 @@ companies:
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
   slug: netskope
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Airbnb
   url: https://www.airbnb.com
@@ -996,10 +976,10 @@ companies:
   sector: consumer
   status: active
   source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: rec-room
+  slug: againstgravity
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Thumbtack
   url: https://www.thumbtack.com
   description: Local services marketplace.
@@ -1050,7 +1030,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: zappos
-  matched_by: name-slug
+  matched_by: domain
 - name: Kayak
   url: https://www.kayak.com
   description: Travel search and metasearch.
@@ -1100,16 +1080,6 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: meebo
-- name: AdMob
-  url: https://admob.google.com
-  description: Mobile advertising network.
-  sector: consumer
-  status: acquired
-  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
-  slug: admob
-  in_network: true
-  is_api_provider: false
-  matched_by: name-slug
 - name: Unity
   url: https://www.unity.com
   description: Real-time 3D and game engine.
@@ -1130,7 +1100,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: eharmony
-  matched_by: name-slug
+  matched_by: domain
 - name: Plaxo
   url: https://www.plaxo.com
   description: Online address book and contacts.

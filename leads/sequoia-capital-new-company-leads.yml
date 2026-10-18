@@ -1,7 +1,14 @@
-generated: '2026-07-23'
+generated: '2026-10-18'
 method: derived
 source_vc: sequoia-capital
 leads:
+- name: Flex
+  url: https://www.flex.com
+  suggested_slug: flex-com
+  sector: enterprise-saas
+  source_vc: sequoia-capital
+  source: https://www.sequoiacap.com/our-companies/ + https://en.wikipedia.org/wiki/Sequoia_Capital
+  stub_created: false
 - name: Webvan
   url: https://www.webvan.com
   suggested_slug: webvan
