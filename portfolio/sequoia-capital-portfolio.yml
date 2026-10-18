@@ -1289,10 +1289,10 @@ companies:
   url: https://www.apexhq.ai/
   source: https://www.sequoiacap.com/companies/apex/
   x-added: '2026-10-18'
-  x-name-collision: apex
   suggested_slug: apexhq-ai
   in_network: false
   is_api_provider: false
+  x-name-collision: apex
 - name: Apollo
   url: https://www.apollo.io
   source: https://www.sequoiacap.com/companies/apollo/
@@ -1584,10 +1584,10 @@ companies:
   url: https://clipboardhealth.com
   source: https://www.sequoiacap.com/companies/clipboard-health/
   x-added: '2026-10-18'
-  x-name-collision: clipboard-health
   suggested_slug: clipboardhealth-com
   in_network: false
   is_api_provider: false
+  x-name-collision: clipboard-health
 - name: Cockroach Labs
   url: https://www.cockroachlabs.com/
   source: https://www.sequoiacap.com/companies/cockroach-labs/
@@ -1679,10 +1679,10 @@ companies:
   url: https://www.wearecurie.ai/
   source: https://www.sequoiacap.com/companies/curie/
   x-added: '2026-10-18'
-  x-name-collision: curie
   suggested_slug: wearecurie-ai
   in_network: false
   is_api_provider: false
+  x-name-collision: curie
 - name: Cymphony
   url: https://cymphony.io/
   source: https://www.sequoiacap.com/companies/cymphony/
@@ -1813,10 +1813,10 @@ companies:
   url: https://elevateapp.com
   source: https://www.sequoiacap.com/companies/elevate/
   x-added: '2026-10-18'
-  x-name-collision: elevate
   suggested_slug: elevateapp-com
   in_network: false
   is_api_provider: false
+  x-name-collision: elevate
 - name: ElevenLabs
   url: https://elevenlabs.io/
   source: https://www.sequoiacap.com/companies/elevenlabs/
@@ -1859,10 +1859,10 @@ companies:
   url: https://getenter.ai
   source: https://www.sequoiacap.com/companies/enter/
   x-added: '2026-10-18'
-  x-name-collision: enter
   suggested_slug: getenter-ai
   in_network: false
   is_api_provider: false
+  x-name-collision: enter
 - name: Eon
   url: https://www.eon.io/
   source: https://www.sequoiacap.com/companies/eon/
@@ -2177,10 +2177,10 @@ companies:
   url: https://handshake.org/
   source: https://www.sequoiacap.com/companies/handshake-coins/
   x-added: '2026-10-18'
-  x-name-collision: handshake
   suggested_slug: handshake-org
   in_network: false
   is_api_provider: false
+  x-name-collision: handshake
 - name: Harmonic
   url: https://harmonic.fun/
   source: https://www.sequoiacap.com/companies/harmonic/
@@ -2265,7 +2265,9 @@ companies:
   slug: instagram
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.instagram.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Instinct
   url: https://instinct.com/
   source: https://www.sequoiacap.com/companies/instinct/
@@ -2524,10 +2526,10 @@ companies:
   url: https://www.microchip.com/
   source: https://www.sequoiacap.com/companies/microchip-technology/
   x-added: '2026-10-18'
-  x-name-collision: microchip-technology
   suggested_slug: microchip-com
   in_network: false
   is_api_provider: false
+  x-name-collision: microchip-technology
 - name: Mindy
   url: https://mindy.com/
   source: https://www.sequoiacap.com/companies/mindy/
@@ -2780,10 +2782,10 @@ companies:
   url: https://withotter.com/
   source: https://www.sequoiacap.com/companies/otter/
   x-added: '2026-10-18'
-  x-name-collision: otter
   suggested_slug: withotter-com
   in_network: false
   is_api_provider: false
+  x-name-collision: otter
 - name: Otto Finance
   url: https://www.ottofinance.io/
   source: https://www.sequoiacap.com/companies/otto-finance/
@@ -2795,10 +2797,10 @@ companies:
   url: https://pace.group/
   source: https://www.sequoiacap.com/companies/pace/
   x-added: '2026-10-18'
-  x-name-collision: pace
   suggested_slug: pace-group
   in_network: false
   is_api_provider: false
+  x-name-collision: pace
 - name: Paid
   url: https://paid.ai/
   source: https://www.sequoiacap.com/companies/paid/
@@ -2984,10 +2986,10 @@ companies:
   url: https://www.protege.com
   source: https://www.sequoiacap.com/companies/protege/
   x-added: '2026-10-18'
-  x-name-collision: protege
   suggested_slug: protege-com
   in_network: false
   is_api_provider: false
+  x-name-collision: protege
 - name: Pydantic
   url: https://pydantic.dev/
   source: https://www.sequoiacap.com/companies/pydantic/
@@ -3074,10 +3076,10 @@ companies:
   url: https://releasehub.com/
   source: https://www.sequoiacap.com/companies/release/
   x-added: '2026-10-18'
-  x-name-collision: release
   suggested_slug: releasehub-com
   in_network: false
   is_api_provider: false
+  x-name-collision: release
 - name: Remote
   url: https://remote.com/
   source: https://www.sequoiacap.com/companies/remote/
@@ -3315,10 +3317,10 @@ companies:
   url: https://www.stainlessapi.com/
   source: https://www.sequoiacap.com/companies/stainless/
   x-added: '2026-10-18'
-  x-name-collision: stainless
   suggested_slug: stainlessapi-com
   in_network: false
   is_api_provider: false
+  x-name-collision: stainless
 - name: Stairwell
   url: https://stairwell.com/
   source: https://www.sequoiacap.com/companies/stairwell/
@@ -3339,10 +3341,10 @@ companies:
   url: https://stark-defence.com/en
   source: https://www.sequoiacap.com/companies/stark/
   x-added: '2026-10-18'
-  x-name-collision: stark
   suggested_slug: stark-defence-com
   in_network: false
   is_api_provider: false
+  x-name-collision: stark
 - name: StarkWare
   url: https://www.starkware.co/
   source: https://www.sequoiacap.com/companies/starkware/
@@ -3515,10 +3517,10 @@ companies:
   url: https://usetola.com/
   source: https://www.sequoiacap.com/companies/tola/
   x-added: '2026-10-18'
-  x-name-collision: tola
   suggested_slug: usetola-com
   in_network: false
   is_api_provider: false
+  x-name-collision: tola
 - name: Tourlane
   url: https://www.tourlane.com/
   source: https://www.sequoiacap.com/companies/tourlane/
