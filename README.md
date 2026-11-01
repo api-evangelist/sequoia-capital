@@ -64,108 +64,68 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/apis.yml)
+Sequoia Capital is one of the world's leading venture capital firms, founded by Don Valentine in 1972 and headquartered at 2800 Sand Hill Road in Menlo Park, California. Sequoia partners with founders from idea to IPO and beyond, investing across seed, early, and growth stages, and has backed transformative companies including Apple, Google, Oracle, Cisco, NVIDIA, PayPal, YouTube, Airbnb, Stripe, WhatsApp, Instagram, DoorDash, Snowflake, and Reddit. Its stated mission is to "help the daring build legendary companies," with a current focus on artificial intelligence and AI agents, autonomous systems, fintech, developer tools and infrastructure, healthcare, and consumer technology. Following its 2024 restructuring, Sequoia operates primarily across the US and Europe, while its former India/SEA and China arms became the independent firms Peak XV Partners and HongShan. This profile tracks Sequoia's identity and its portfolio graph across the API Evangelist network.
 
-Sequoia Capital is one of the world's leading venture capital firms, founded in 1972 and headquartered in Menlo Park, California. Sequoia has backed transformative companies including Apple, Google, Oracle, Cisco, LinkedIn, Instagram, WhatsApp, YouTube, Airbnb, Stripe, and many others. Sequoia operates globally through dedicated funds including Sequoia Capital US/Europe, Sequoia India/Southeast Asia, and Sequoia China. This profile tracks Sequoia's developer resources, portfolio data APIs, and investment intelligence tools.
+**Areas:** Venture Capital · Seed · Early Stage · Growth Equity · Artificial Intelligence · Fintech · Developer Tools · Infrastructure · United States · Global
 
-## Timestamps
+## Sequoia Capital on APIs.io
 
-- **Created:** 2026-05-02
-- **Modified:** 2026-05-02
+Everything profiled for Sequoia Capital is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sequoia-capital/](https://apis.io/providers/sequoia-capital/)** — or go straight to one of the APIs or properties below.
 
-## APIs
+### Published properties
 
-### Sequoia Arc Program API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Sequoia Arc is the firm's structured program for early-stage seed companies. The Arc program provides cohort-based resources, curriculum, and networking for seed-stage founders.
+#### MCP servers (1)
 
-**Human URL:** [https://www.sequoiacap.com/arc/](https://www.sequoiacap.com/arc/)
+Model Context Protocol servers that expose the API to agents.
 
-#### Tags
+- [sequoia-capital](https://apis.io/servers/sequoia-capital/sequoia-capital/)
 
-Venture Capital, Seed Stage, Early Stage, Founder Resources
+#### Vocabulary (1)
 
-#### Properties
+The provider's domain terms, defined.
 
-- [Documentation](https://www.sequoiacap.com/arc/)
+- [Sequoia Capital Vocabulary](https://apis.io/vocabularies/sequoia-capital/sequoia-vocabulary/)
 
----
+#### Plans and pricing (1)
 
-### Crunchbase Investment Data API
+Published plans, tiers and prices.
 
-Crunchbase provides investment and startup data including Sequoia portfolio company information, funding rounds, valuations, and investor relationships. The Crunchbase API is widely used by analysts researching Sequoia's portfolio and deal history.
+- [Sequoia Capital Plans Pricing](https://apis.io/plans/sequoia-capital/sequoia-capital-plans-pricing/)
 
-**Human URL:** [https://data.crunchbase.com/](https://data.crunchbase.com/)
+#### Rate limits (1)
 
-#### Tags
+Published request limits.
 
-Venture Capital, Investment Data, Portfolio Research, Startup Data
+- [Sequoia Capital Rate Limits](https://apis.io/rate-limits/sequoia-capital/sequoia-capital-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://data.crunchbase.com/)
-- [Reference](https://data.crunchbase.com/reference/get_data-entities-organizations)
+What the API costs to run, by operation.
 
----
+- [Sequoia Capital Finops](https://apis.io/finops/sequoia-capital/sequoia-capital-finops/)
 
-### PitchBook Investment Data API
+## Where to find this API
 
-PitchBook provides private equity and venture capital data including comprehensive Sequoia deal history, portfolio company valuations, fund performance, and limited partner information.
-
-**Human URL:** [https://pitchbook.com/data/pitchbook-api](https://pitchbook.com/data/pitchbook-api)
-
-#### Tags
-
-Venture Capital, Investment Data, Private Markets, Fund Performance
-
-#### Properties
-
-- [Documentation](https://pitchbook.com/data/pitchbook-api)
-
----
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.sequoiacap.com/)
-- [Portfolio](https://www.sequoiacap.com/companies/)
-- [Arc Program](https://www.sequoiacap.com/arc/)
-- [Blog](https://www.sequoiacap.com/articles/)
-- [Podcast](https://www.sequoiacap.com/podcast/)
+- [Blog](https://www.sequoiacap.com/stories/)
 - [GitHub](https://github.com/sequoia-capital)
-- [LinkedIn](https://www.linkedin.com/company/sequoia-capital/)
 
-## Artifacts
+## API Evangelist rating
 
-### JSON Schemas
+Not yet rated. See [apis.io/providers/sequoia-capital/](https://apis.io/providers/sequoia-capital/).
 
-| File | Description |
-|------|-------------|
-| [sequoia-portfolio-company-schema.json](json-schema/sequoia-portfolio-company-schema.json) | JSON Schema for a Sequoia portfolio company record including funding rounds, executives, and exit details |
+## How this profile is made
 
-### JSON Structures
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| File | Description |
-|------|-------------|
-| [sequoia-portfolio-company-structure.json](json-structure/sequoia-portfolio-company-structure.json) | Field-by-field structural documentation for portfolio company records |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sequoia Capital: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### JSON-LD Context
+## Open an issue
 
-| File | Description |
-|------|-------------|
-| [sequoia-context.jsonld](json-ld/sequoia-context.jsonld) | JSON-LD context mapping Sequoia vocabulary to schema.org for linked data semantics |
-
-### Examples
-
-| File | Description |
-|------|-------------|
-| [sequoia-portfolio-company-example.json](examples/sequoia-portfolio-company-example.json) | Example portfolio company record with funding rounds, executives, and exit details |
-
-### Vocabulary
-
-| File | Description |
-|------|-------------|
-| [sequoia-vocabulary.yml](vocabulary/sequoia-vocabulary.yml) | Venture capital and investment domain vocabulary covering funding stages, deal terms, and portfolio concepts |
-
-## Maintainers
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sequoia-capital/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
